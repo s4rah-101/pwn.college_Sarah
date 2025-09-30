@@ -1,0 +1,63 @@
+# Hello Hackers 
+
+## Intro to Commands 
+This challenge allowed us to learn the commands and type out our first command on pwn.college. We learnt about the basic starting commands in Linux.
+
+### My Solution 
+**Flag:** `pwn.college{Er3QjqO_HooM7j_VQgyzDPYOJUT.QX4YjM1wyN1QzNzEzW}`
+By simply typing 'hello' in the command prompt we got the Flag and hence completed our first task. 
+
+```bash
+hacker@hello~intro-to-commands:~$ hello
+Success! Here is your flag:
+pwn.college{k67a4WQq_cDaiotf9CPCxJaJKUd.QX3YjM1wyN1QzNzEzW}
+```
+
+### My learnings 
+We learnt how a terminal in Linux works and how with just simple and easy commands we can type out our input in Linux command prompt window.
+
+### References 
+No references used 
+
+
+## Intro to Arguments
+This challenge allowed us to learn the commands and its respective arguments. A bit more complicated than the previous challenge, we learnt how Linux accepts the first words as a command and the subsequent words as arguments.
+
+### My Solution 
+**Flag:** `pwn.college{k67a4WQq_cDaiotf9CPCxJaJKUd.QX3YjM1wyN1QzNzEzW}`
+The first step included typing'echo hello' which printed out hello. The echo command stored that.Next we typed 'echo hello hackers' giving an argument statement to the echo command. Itthen stored the new output. Later on at the end we just typed hello hackers and got our flag to proceed to the next module.
+
+```bash
+hacker@hello~intro-to-arguments:~$ echo hello
+hello
+hacker@hello~intro-to-arguments:~$ echo hello hackers
+hello hackers
+hacker@hello~intro-to-arguments:~$ hello hackers
+Success! Here is your flag:
+pwn.college{Er3QjqO_HooM7j_VQgyzDPYOJUT.QX4YjM1wyN1QzNzEzW}
+```
+
+### My learnings 
+We learnt the 'echo' command in the first place and how it accepts commands and argumengts as input and gives the output. 
+
+### References 
+No references used 
+
+
+
+## Command History
+This challenge allowed us to understand that and learn that the shell saves a history of every command that we invoke. 
+
+### My Solution 
+**Flag:** `pwn.college{QgjRryxrbHBOVm48tj-fW0coqEr.0lNzEzNxwyN1QzNzEzW}`
+Simply by pressing the up arrow key we got our flag. 
+
+```bash
+hacker@hello~command-history:~$ the flag is pwn.college{QgjRryxrbHBOVm48tj-fW0coqEr.0lNzEzNxwyN1QzNzEzW}
+```
+
+### My learnings 
+We learnt that the Linux commands are saved in history and we can access them by using the up/down aroow key. 
+
+### References 
+No references used 
