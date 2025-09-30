@@ -1,0 +1,22 @@
+# Pondering Paths 
+
+## The Root
+The challenge was to understand and define a file path successfully.It also taught us about 'absolute path'.
+
+### My solution 
+**Flag:** `pwn.college{YEo6zs8xTQSY3R4C8d8WLEMOg-a.QX4cTO0wyN1QzNzEzW}`
+
+By typing '/pwn' I could complete my goal of capturing the flag and hence completed the challenge of defining and executing a file path.
+
+```bash
+hacker@paths~the-root:~$ /pwn
+BOOM!!!
+Here is your flag:
+pwn.college{YEo6zs8xTQSY3R4C8d8WLEMOg-a.QX4cTO0wyN1QzNzEzW}
+```
+
+### New Learnings
+I learnt how to write a file path in Linux. Since it is starting with the root directory, it is called as "Absolute path".
+
+### References 
+No references used 
