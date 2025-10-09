@@ -1,1 +1,21 @@
+# Digetsing Documentation
+
+## 
+The challenge was to understand and learn the cat command which reads a file in Linux. It is one of the very important commands in Linux.
+
+### My solution 
+**Flag:** `pwn.college{svspNLRFvqDcre16IuXXXo-KDzp.QXxcTN0wyN1QzNzEzW}`
+
+By typing 'cat flag' I could complete my goal of capturing the flag and hence completed the challenge of reading the file through the cat function. 
+
+```bash
+hacker@commands~cat-not-the-pet-but-the-command:~$ cat flag 
+pwn.college{svspNLRFvqDcre16IuXXXo-KDzp.QXxcTN0wyN1QzNzEzW}
+```
+
+### New Learnings
+I learnt how to call a file in Linux using cat command. It is one of the very important commands in Linux. 
+
+### References 
+No references used 
 
